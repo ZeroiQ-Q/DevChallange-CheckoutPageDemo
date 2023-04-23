@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <p class="checkout">Checkout</p>
+        <div class="contact_information">
+          <p class="heading-label contact-info">Contact information</p>
+
+          <p class="label">Email</p>
+          <div class="field">
+            <img class="icon" src="./envelope-alt.svg" alt="" />
+            <input
+              class="field_box email"
+              type="text"
+              placeholder="Enter your email..."
+            />
+          </div>
+
+          <p class="label">Phone</p>
+          <div class="field">
+            <img class="icon" src="./phone.svg" alt="" />
+            <input
+              class="field_box email"
+              type="text"
+              placeholder="Enter your phone..."
+            />
+          </div>
+        </div>
+
+        <div class="shipping_address">
+          <p class="heading-label shipping">Shipping address</p>
+
+          <p class="label">Full name</p>
+          <div class="field">
+            <img class="icon" src="./user.svg" alt="" />
+            <input
+              class="field_box name"
+              type="text"
+              placeholder="Rodney Cotton"
+            />
+          </div>
+          <p class="label">Address</p>
+          <div class="field">
+            <img class="icon" src="./home-alt2.svg" alt="" />
+            <input
+              class="field_box adress"
+              type="text"
+              placeholder="Your address.."
+            />
+          </div>
+          <p class="label">City</p>
+          <div class="field">
+            <img class="icon" src="./bolt.svg" alt="" />
+            <input
+              class="field_box city"
+              type="text"
+              placeholder="Your city.."
+            />
+          </div>
+        </div>
+
+        <div class="bottom_fields">
+          <div class="field">
+            <p class="label">Country</p>
+            <img class="icon bottom_icon" src="./language.svg" alt="" />
+            <input
+              class="field_box country bottom"
+              type="text"
+              placeholder="Your country.."
+            />
+          </div>
+
+          <div class="field">
+            <p class="label">Postal code</p>
+            <img class="icon bottom_icon" src="./add-to-list.svg" alt="" />
+            <input
+              class="field_box postal_code bottom"
+              type="text"
+              placeholder="Your postal code.."
+            />
+          </div>
+        </div>
+
+        <div class="submit_section">
+          <div class="checkbox_element">
+            <input type="checkbox" name="" id="check_continue" />
+            <p class="check_label">Save this information for next time</p>
+          </div>
+          <div class="submit_button_section">
+            <button class="continue_button">Continue</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkout_cart">
+        <p class="checkout_mobile">Checkout</p>
+        <div class="product_area">
+          <div class="product">
+            <img class="product_image" src="./photo1.png" alt="" />
+
+            <div class="product_details">
+              <p class="product_name">Vintage Backbag</p>
+              <div class="price_section">
+                <p class="main_price">$54.99</p>
+                <p class="discount">$99.99</p>
+              </div>
+
+              <div class="counter_section">
+                <button class="counter remove_product">-</button>
+                <p class="item_number">1</p>
+                <button class="counter add_product">+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="product_image" src="./photo2.png" alt="" />
+
+            <div class="product_details">
+              <p class="product_name">Levi Shoes</p>
+              <div class="price_section">
+                <p class="main_price">$74.99</p>
+                <p class="discount">$124.99</p>
+              </div>
+
+              <div class="counter_section">
+                <button class="counter remove_product">-</button>
+                <p class="item_number">1</p>
+                <button class="counter add_product">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="amounts">
+          <hr />
+          <div class="shipping_cost costs">
+            <p class="shipping_label heading-label checkout_amount">Shipping</p>
+            <p class="ship-amount totals">$19</p>
+          </div>
+
+          <hr />
+          <div class="total-cost costs">
+            <p class="total_label heading-label checkout_amount">Total</p>
+            <p class="total-amount totals">$148.98</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-info">
+      <p class="dev-info">
+        created by <strong><u>Sushant Bhandari</u> </strong> - devChallanges.io
+      </p>
+    </div>
+  </body>
+</html>
